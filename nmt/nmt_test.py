@@ -21,8 +21,7 @@ from __future__ import print_function
 import argparse
 import os
 
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 
 from . import inference
 from . import nmt

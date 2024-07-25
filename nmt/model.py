@@ -22,8 +22,7 @@ import abc
 import collections
 import numpy as np
 
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 
 from . import model_helper
 from .utils import iterator_utils

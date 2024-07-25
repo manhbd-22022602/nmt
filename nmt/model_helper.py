@@ -21,8 +21,7 @@ import os
 import time
 import numpy as np
 import six
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 
 from tensorflow.python.ops import lookup_ops
 from .utils import iterator_utils

@@ -20,8 +20,7 @@ import os
 import random
 import time
 
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 
 from . import attention_model
 from . import gnmt_model

@@ -21,8 +21,7 @@ from __future__ import print_function
 import pprint
 import sys
 import numpy as np
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 
 from . import attention_model
 from . import gnmt_model

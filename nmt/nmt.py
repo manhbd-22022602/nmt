@@ -23,8 +23,7 @@ import sys
 
 # import matplotlib.image as mpimg
 import numpy as np
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 
 from . import inference
 from . import train
