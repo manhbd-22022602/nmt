@@ -19,7 +19,8 @@ from __future__ import print_function
 import codecs
 import time
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 from . import attention_model
 from . import gnmt_model
